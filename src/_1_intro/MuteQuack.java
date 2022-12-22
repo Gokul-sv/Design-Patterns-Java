@@ -1,6 +1,6 @@
 package _1_intro;
 
-public class MuteQuack implements QuackBehaviour {
+public class MuteQuack implements IQuackBehaviour {
     @Override
     public void quack() {
         System.out.println("<<Silent>>");

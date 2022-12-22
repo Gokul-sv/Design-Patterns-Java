@@ -1,5 +1,5 @@
 package _1_intro;
 
-public interface FlyBehaviour {
+public interface IFlyBehaviour {
     public void fly();
 }

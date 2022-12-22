@@ -1,17 +1,17 @@
 package _1_intro;
 
 public abstract class Duck {
-    FlyBehaviour flyBehaviour;
-    QuackBehaviour quackBehaviour;
+    IFlyBehaviour flyBehaviour;
+    IQuackBehaviour quackBehaviour;
 
     public Duck() {
     }
 
-    public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+    public void setFlyBehaviour(IFlyBehaviour flyBehaviour) {
         this.flyBehaviour = flyBehaviour;
     }
 
-    public void setQuackBehaviour(QuackBehaviour quackBehaviour) {
+    public void setQuackBehaviour(IQuackBehaviour quackBehaviour) {
         this.quackBehaviour = quackBehaviour;
     }
 

@@ -1,5 +1,5 @@
 package _1_intro;
 
-public interface QuackBehaviour {
+public interface IQuackBehaviour {
     public void quack();
 }
